@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel serve ./index.html"
+    "start": "node init && parcel serve ./index.html"
   },
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.3",

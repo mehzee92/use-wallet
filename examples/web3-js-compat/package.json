@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "parcel serve index.html",
-    "build": "parcel build index.html"
+    "start": "node init && parcel serve index.html",
+    "build": "node init && parcel build index.html"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
